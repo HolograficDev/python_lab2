@@ -14,4 +14,5 @@ RUN pip install -r requirements.txt
 # Затем исходный код (лишнее исключено через .dockerignore)
 COPY . .
 
+
 CMD ["python", "main.py"]
