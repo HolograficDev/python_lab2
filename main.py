@@ -275,6 +275,8 @@ def print_menu():
     print("0. Выход")
 
 
+
+
 def main():
     items = load_items()
 
