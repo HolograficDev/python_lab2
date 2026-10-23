@@ -1,0 +1,22 @@
+# Виртуальное окружение
+.venv/
+venv/
+
+# Временные файлы Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# PyCharm
+.idea/
+
+# Локальная база данных
+data/*.db
+data/*.db-*
+
+# Сформированные отчёты
+reports/*
+!reports/.gitkeep
+
+# Локальные настройки
+.env

@@ -1,0 +1,22 @@
+# Виртуальное окружение
+.venv/
+venv/
+
+# Временные файлы Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# IDE и Git
+.idea/
+.git/
+.gitignore
+
+# Локальная база данных и отчёты не попадают в образ
+data/*.db
+data/*.db-*
+reports/*
+!reports/.gitkeep
+
+# Локальные настройки
+.env
