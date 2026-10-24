@@ -7,6 +7,7 @@ from enum import Enum
 MAX_DISTANCE_KM = 20000.0
 
 
+
 def round_money(value):
     """Округляет сумму до копеек по правилу «половина вверх» (а не банковскому)."""
     rounded = Decimal(repr(float(value))).quantize(

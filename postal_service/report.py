@@ -19,6 +19,7 @@ HISTORY_HEADERS = [
 ]
 
 
+
 def _prepare_dir(output_dir):
     directory = REPORTS_DIR if output_dir is None else Path(output_dir)
     directory.mkdir(parents=True, exist_ok=True)

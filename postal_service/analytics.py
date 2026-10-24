@@ -16,6 +16,7 @@ def compare_options(item, distance_km, start_date=None):
     return sorted(quotes)
 
 
+
 def cheapest_quote(quotes):
     """Самый дешёвый вариант (при равенстве - самый быстрый); None для пустого списка."""
     quotes = list(quotes)

@@ -8,6 +8,7 @@ from .pricing import Quote
 
 DB_PATH = Path(__file__).resolve().parent.parent / "data" / "postal.db"
 
+
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS shipments (
     id INTEGER PRIMARY KEY AUTOINCREMENT,

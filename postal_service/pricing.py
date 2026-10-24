@@ -18,6 +18,7 @@ from .items import PostalItem
 from .tariffs import DeliveryMethod, DeliverySpeed, MAX_DISTANCE_KM, round_money
 
 
+
 class Quote:
     """Результат расчёта стоимости и срока доставки одного отправления."""
 
