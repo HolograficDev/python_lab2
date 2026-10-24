@@ -13,6 +13,7 @@ from postal_service.tariffs import DeliveryMethod, DeliverySpeed
 START = date(2026, 10, 17)
 
 
+
 def make_parcel():
     return Parcel("А", "Б", 10, 50, 40, 30, declared_value=5000, fragile=True)
 

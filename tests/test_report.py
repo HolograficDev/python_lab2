@@ -8,6 +8,7 @@ from postal_service.report import export_excel, export_word
 from postal_service.tariffs import DeliveryMethod, DeliverySpeed
 
 
+
 def prepare_database(tmp_path):
     db_path = tmp_path / "postal.db"
     parcel = Parcel("Иванов", "Орлов", 10, 50, 40, 30,

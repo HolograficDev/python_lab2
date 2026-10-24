@@ -9,6 +9,7 @@ from postal_service.items import (
 )
 
 
+
 def make_letter(**kwargs):
     params = dict(sender="Иванов", recipient="Петров", weight_kg=0.05,
                   length_cm=22.9, width_cm=16.2, height_cm=0.5)

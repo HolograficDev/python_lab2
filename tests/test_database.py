@@ -15,6 +15,7 @@ from postal_service.pricing import Quote
 from postal_service.tariffs import DeliveryMethod, DeliverySpeed
 
 
+
 def make_items():
     letter = Letter("Иванов", "Петров", 0.05, 22.9, 16.2, 0.5, with_notification=True)
     banderol = Banderol("Иванов", "Сидоров", 2, 40, 30, 20, is_printed=True)
